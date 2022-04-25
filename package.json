@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-provision-contentful",
+  "version": "0.0.1",
+  "description": "Package for provisioning Contentful data associated with a Gatsby site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "contentful"
+  ],
+  "author": "alex.reed@gatsbyjs.com",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.0",
+    "contentful-import": "^8.2.29",
+    "inquirer": "^8.2.2",
+    "yargs-parser": "^21.0.1"
+  },
+  "bin": {
+    "gatsby-provision-contentful": "index.js"
+  }
+}
