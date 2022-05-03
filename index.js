@@ -16,7 +16,7 @@ function provisionSpace({ spaceId, managementToken }) {
   return spaceImport({ spaceId, managementToken, content: data });
 }
 
-if (process.env.GATSBY_CLOUD_PROVISION === "true") {
+if (process.env.GATSBY_CLOUD === "true") {
   console.log(
     `Setting up your project's Contentful data from Gatsby Cloud using the data found in: ${argv.contentfulDataPath}`
   );
