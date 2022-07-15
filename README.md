@@ -1,12 +1,14 @@
 # Gatsby Provision Contentful
 
-This package is to be used for provisioning Contentful data models and content associated with a Gatsby site.
+This package is to be used for provisioning Contentful content models and content associated with a Gatsby site. This is a way to include example content that is associated with the site in the repository and allow for others to make copies. A typical use case would be if you're building a Gatsby Starter, or a boilerplate or template site for your own re-use.
 
 When included as a dependency to your Gatsby site, and configured correctly, it can be used in two contexts — within Gatsby Cloud and locally.
 
 # Usage
 
-First, install this package as a dependency:
+First, export your Contentful Space's content model and content. You can find instructions on how to do this in [one of Contentful's tutorials](https://www.contentful.com/developers/docs/tutorials/cli/import-and-export/).
+
+Then, install this package as a dependency in the repository you want to enable easy provisioning of data for:d
 
 ```shell
    npm install --save-dev gatsby-provision-contentful
@@ -18,7 +20,7 @@ or for the yarn users:
   yarn add --dev gatsby-provision-contentful
 ```
 
-Next, convention dictates that this package be used in conjunction with the npm script named `gatsby-provision`. It also **requires** the path to the Contentful export JSON file as an argument to function. For example:
+Next, convention dictates that this package be used in conjunction with an npm script named `gatsby-provision`. It also **requires** the path to the Contentful export JSON file as an argument to function. For example:
 
 ```json
 // package.json
@@ -30,7 +32,7 @@ Next, convention dictates that this package be used in conjunction with the npm 
 }
 ```
 
-Optionally, you may include the SPACE_ID and MANAGEMENT_TOKEN as arguments like so:
+Optionally, you may include the Contentful Space ID and Management Token as arguments like so:
 
 `gatsby-provision-contentful --contentful-data-path='./data.json' --space-id=$CONTENTFUL_SPACE_ID --management-token=$CONTENTFUL_MANAGEMENT_TOKEN`
 
