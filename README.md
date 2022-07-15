@@ -1,4 +1,12 @@
-# Gatsby Provision Contentful
+<p align="center">
+  <a href="https://www.gatsbyjs.com">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+
+<h1 align="center">
+  Gatsby Provision Contentful
+</h1>
 
 This package is to be used for provisioning Contentful content models and content associated with a Gatsby site. This is a way to include example content that is associated with the site in the repository and allow for others to make copies. A typical use case would be if you're building a Gatsby Starter, or a boilerplate or template site for your own re-use.
 
