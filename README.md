@@ -18,13 +18,13 @@ First, export your Contentful Space's content model and content. You can find in
 
 Then, install this package as a dependency in the repository you want to enable easy provisioning of data for:d
 
-```shell
+```sh
    npm install --save-dev gatsby-provision-contentful
 ```
 
 or for the yarn users:
 
-```shell
+```sh
   yarn add --dev gatsby-provision-contentful
 ```
 
@@ -57,3 +57,12 @@ If for whatever reason you choose not to Quick Connect, for the purposes of `gat
 ## Local usage
 
 When running the `gatsby-provision` locally, you will be prompted for environment variables if they are not found on the current process. Additionally, after provisioning your Contentful space, the script will generate a `.env.development` and an `.env.production` file, populated with the environment variables values you provided.
+
+## Example
+
+You can see an example of this package in use in following repositories:
+
+- [gatsby-starter-contentful-homepage](https://github.com/gatsbyjs/gatsby-starter-contentful-homepage)
+- [gatsby-starter-contentful-homepage-ts](https://github.com/gatsbyjs/gatsby-starter-contentful-homepage-ts)
+- [gatsby-starter-landing-page](https://github.com/gatsbyjs/gatsby-starter-landing-page)
+- [starter-gatsby-blog](https://github.com/contentful/starter-gatsby-blog)
