@@ -16,7 +16,7 @@ When included as a dependency to your Gatsby site, and configured correctly, it 
 
 First, export your Contentful Space's content model and content. You can find instructions on how to do this in [one of Contentful's tutorials](https://www.contentful.com/developers/docs/tutorials/cli/import-and-export/).
 
-Then, install this package as a dependency in the repository you want to enable easy provisioning of data for:d
+Then, install this package as a dependency in the repository you want to enable easy provisioning of data for:
 
 ```sh
    npm install --save-dev gatsby-provision-contentful
