@@ -1,6 +1,6 @@
 {
   "name": "gatsby-provision-contentful",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Package for provisioning Contentful data associated with a Gatsby site",
   "main": "index.js",
   "scripts": {
