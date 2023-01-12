@@ -112,7 +112,7 @@ function main() {
 
           console.log("Writing config file...");
           const configFiles = [`.env.development`, `.env.production`].map(
-            (file) => path.join(__dirname, file)
+            (file) => path.join(process.env.INIT_CWD, file)
           );
 
           const fileContents = [
