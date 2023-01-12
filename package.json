@@ -1,6 +1,6 @@
 {
   "name": "gatsby-provision-contentful",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Package for provisioning Contentful data associated with a Gatsby site",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "4.1.0",
-    "contentful-import": "^8.2.29",
+    "contentful-import": "^8.5.21",
     "inquirer": "^8.2.2",
     "yargs-parser": "^21.0.1"
   },
