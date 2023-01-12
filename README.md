@@ -60,7 +60,7 @@ When running the `gatsby-provision` locally, you will be prompted for environmen
 
 ## Example
 
-You can see an example of this package in use in following repositories:
+You can see an example of this package in use in the following repositories:
 
 - [gatsby-starter-contentful-homepage](https://github.com/gatsbyjs/gatsby-starter-contentful-homepage)
 - [gatsby-starter-contentful-homepage-ts](https://github.com/gatsbyjs/gatsby-starter-contentful-homepage-ts)
